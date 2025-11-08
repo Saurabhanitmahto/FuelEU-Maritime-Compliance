@@ -64,8 +64,9 @@ Make sure you have installed:
    
    Create a `.env` file with your database connection:
    ```
-   DATABASE_URL="postgresql://username:password@localhost:5432/fueleu_maritime"
+   DATABASE_URL="postgresql://username:password@localhost:5432/fueleu_maritime"   (change it with your postgresql URL)
    PORT=3001
+   NODE_ENV=development
    ```
 
 4. **Set up database**
